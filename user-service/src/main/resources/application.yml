@@ -1,0 +1,17 @@
+server:
+  port: 5557
+
+spring:
+  application:
+    name: user-service
+  datasource:
+    url: jdbc:postgresql://database-1.cnewefifpzkk.ap-southeast-1.rds.amazonaws.com:5432/test1?user=postgres&password=bFrphP7kjUS1KqHOhM6U&sslmode=require
+  jpa:
+    show-sql: true
+    generate-ddl: false
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+logging:
+  file:
+    name: logs/user-service.log
