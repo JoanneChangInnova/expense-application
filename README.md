@@ -1,7 +1,7 @@
 # Overview:
 ![project image](images/project.png)
 
-This [expense-application](http://ec2-13-215-209-48.ap-southeast-1.compute.amazonaws.com/) serves as a foundation for developing commonly used and scalable products in real-world scenarios. It consists of a UI service and three back-end services(user/expense/notificatoin).
+This expense-application serves as a foundation for developing commonly used and scalable products in real-world scenarios. It consists of a UI service and three back-end services(user/expense/notificatoin).
 
 ![diagram image](images/diagram.png)
 
